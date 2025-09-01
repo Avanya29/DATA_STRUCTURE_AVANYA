@@ -30,17 +30,56 @@ int main(){
     for(int i=0;i<v.size();i++){
         cout<<v[i]<<" ";
        // cout<<v.at(i)<<" ";
+    }
         cout<<endl;
         for(auto value :v){
-            cout<<value<<" ";
+            cout<<value<<" ";}
             cout<<endl;
             v.pop_back();
-            for(auto value:v)
+            for(auto value:v){
             cout<<value<<" ";
             cout<<endl;
             cout<<"Front:"<<v.front()<<" "<<"last Value:"<<v.back()<<endl;
+            }
+            v.insert(v.begin(),2);
+            for(auto value:v){
+            cout<<value<<" ";
+            
+            }
+            cout<<endl;
+          cout<<"Size of vector 1:"<<v.size()<<endl;
+          cout<<"capacity of vector 1:"<<v.capacity()<<endl;
+
+          v.insert(v.begin()+4,3,11);
+
+          for(auto value:v){
+            cout<<value<<" ";
+
+          }
+          cout<<endl;
+
+          v.erase(v.begin(),v.begin()+3);
+          for(auto value:v){
+            cout<<value<<" ";
+            
+          }
+          cout<<endl;
+
+          vector<int>v1=(2,5,7,8,9,10);
+          for(auto value:v1){
+          cout<<value<<" ";
         }
+        cout<<endl;
+
+        vector<int>v2(3,5);
+        for(auto value:v2){
+            cout<<value<<" ";
+        }
+            cout<<endl;
+        
+            vector<int>::iterator itr;
+            for(i)
     }
     
-}
+
 
