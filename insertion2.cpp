@@ -24,6 +24,7 @@ int main(){
             arr[i+1]=temp;
         }
     }
+    //inserting an element
     for(int i=n;i>k;i++){
         arr[i]=arr[i-1];
     }
