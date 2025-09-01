@@ -29,7 +29,18 @@ int main(){
 
     for(int i=0;i<v.size();i++){
         cout<<v[i]<<" ";
+       // cout<<v.at(i)<<" ";
         cout<<endl;
+        for(auto value :v){
+            cout<<value<<" ";
+            cout<<endl;
+            v.pop_back();
+            for(auto value:v)
+            cout<<value<<" ";
+            cout<<endl;
+            cout<<"Front:"<<v.front()<<" "<<"last Value:"<<v.back()<<endl;
+        }
     }
+    
 }
 
