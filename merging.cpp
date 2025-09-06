@@ -16,7 +16,7 @@ int main(){
     }
 //sorting array
 
-for(int i=0;i<n;i++){5
+for(int i=0;i<n;i++){
     int temp = a[0];
     
 }
