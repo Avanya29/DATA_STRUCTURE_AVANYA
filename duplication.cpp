@@ -12,9 +12,10 @@ int main(){
         cout<<"Enter the element :"<<endl;
         cin>>arr[i];
     }
+    //checking the Repeatation
     for(int i=0;i<n;i++){
         int count=0;
-        for(int j=i+1;j<n;j++){
+        for(int j=n-i-1;j<n;j++){
             if(arr[i]==arr[j]){
                 cout<<arr[i]<<endl;
                 count++;
@@ -23,7 +24,6 @@ int main(){
             cout<<count<<endl;
 
         }
-        
     }
     return 0;
 }
