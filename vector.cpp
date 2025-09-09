@@ -61,7 +61,6 @@ int main(){
           v.erase(v.begin(),v.begin()+3);
           for(auto value:v){
             cout<<value<<" ";
-            
           }
           cout<<endl;
 
@@ -78,7 +77,7 @@ int main(){
             cout<<endl;
         
             vector<int>::iterator itr;
-            for(i)
+           
     }
     
 
