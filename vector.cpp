@@ -64,7 +64,7 @@ int main(){
           }
           cout<<endl;
 
-          vector<int> v1 =(2,5,7,8,9,10);
+          vector<int> v1 ={2,5,7,8,9,10};
           for(auto value:v1){
           cout<<value<<" ";
         }

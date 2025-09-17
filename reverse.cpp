@@ -4,12 +4,12 @@ using namespace std;
 void reversedArray(int arr[],int n){
     int i=0;
     int j=n-1;
+    
     //two pinter approach is basically the swaping
     while(i<j){
         int temp=arr[i];
         arr[i]=arr[j];
         arr[j]=temp;
-
         i++;
         j--;
     }
